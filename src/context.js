@@ -5,7 +5,7 @@ import React from "react";
 // context provider (ye data bhejne ka kaam krega)
 // context consumer ( useContext jo data recieve krega or hum use krenge)
 
-const API_KEY = `http://www.omdbapi.com/?apikey=${process.env.REACT_APP_API_KEY}`;
+const API_KEY = `https://www.omdbapi.com/?apikey=${process.env.REACT_APP_API_KEY}`;
 
 const AppContext = React.createContext();
 

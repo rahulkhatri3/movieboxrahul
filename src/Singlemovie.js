@@ -1,7 +1,7 @@
 import React from 'react'
 import { useEffect, useState } from 'react';
 import { NavLink, useParams } from 'react-router-dom'
-const API_KEY = `http://www.omdbapi.com/?apikey=${process.env.REACT_APP_API_KEY}`;
+const API_KEY = `https://www.omdbapi.com/?apikey=${process.env.REACT_APP_API_KEY}`;
 
 const Singlemovie = () => {
   const {id} = useParams()
