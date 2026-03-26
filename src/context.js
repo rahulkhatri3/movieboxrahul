@@ -37,7 +37,7 @@ const GetMovies = async(url)=>{
 
 useEffect(()=>{
     let timeOut =setTimeout(()=>{
-    GetMovies(API_KEY + `&s=${query}`);
+    GetMovies(`${API_KEY}&s=${query}`);
     },300);
 return()=> clearTimeout(timeOut);
 
